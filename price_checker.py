@@ -73,5 +73,5 @@ with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
     subject = 'Price different!'
     body = f"{max_price}\n{min_price}"
     msg = f'Subject: {subject}\n\n{body}'
-    smtp.sendmail(EMAIL_ADDRESS, 'gardcristian@gmail.com', msg)
+    smtp.sendmail(EMAIL_ADDRESS, 'gc...@gmail.com', msg)
     print("done")
